@@ -74,8 +74,7 @@ GitHub Actions повторяет проверки при push и открыти
 ```text
 .
 ├── .github/
-│   ├── workflows/quality.yml       # CI: Ruff и pre-commit
-│   └── pull_request_template.md    # Чек-лист сдачи
+│   └── workflows/quality.yml       # CI: Ruff и pre-commit
 ├── docs/
 │   └── ml_system_design_doc.md     # Незаполненный шаблон Reliable ML
 ├── src/
