@@ -87,21 +87,3 @@ GitHub Actions повторяет проверки при push и открыти
 
 Данные, модели, `.venv` и локальные настройки исключены из Git через `.gitignore`.
 На этом этапе обучение модели и работа с датасетом ещё не реализованы.
-
-## Порядок сдачи HW1
-
-1. Рабочие изменения находятся в `hw_1_setup`.
-2. PR с работой направляется в отдельную целевую ветку `hw_1`.
-3. Ментору необходимо выдать доступ к репозиторию, а ментора и двух
-   кросс-ревьюеров добавить в reviewers после получения их GitHub-логинов.
-4. После ревью внести исправления; перенос работы в `main` выполняется после одобрения.
-
-Указанные участники ревью: [germanKoch](https://github.com/germanKoch) и
-[pacifikus](https://github.com/pacifikus). По требованиям курса нужны ментор и два
-кросс-ревьюера; ещё один участник будет добавлен после назначения.
-
-## Источники
-
-- [Задание HW1](https://gist.github.com/pacifikus/47424379293e0874859354ecd130ba13).
-- [Шаблон дизайн-документа Reliable ML](https://github.com/IrinaGoloshchapova/ml_system_design_doc_ru/blob/main/ML_System_Design_Doc_Template.md).
-- [Ruff](https://docs.astral.sh/ruff/) и [pre-commit](https://pre-commit.com/).
