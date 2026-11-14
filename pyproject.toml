@@ -1,0 +1,29 @@
+[project]
+name = "mlsd-itmo"
+version = "0.1.0"
+description = "Self-supervised representation learning for rare events in continuous signals"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pre-commit==4.3.0",
+    "ruff==0.14.3",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
