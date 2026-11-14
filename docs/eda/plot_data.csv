@@ -1,0 +1,25 @@
+series,point,value,ci95_low,ci95_high
+ssl_hours,DORI-ONC,900,,
+ssl_hours,Orcasound,300,,
+ssl_hours,MBARI Pacific Sound,250,,
+ssl_hours,NOAA SanctSound,150,,
+orca_clip_count,K1,3136,,
+orca_clip_count,K4,3000,,
+orca_clip_count,K5,3000,,
+orca_clip_count,K7,3000,,
+orca_clip_count,K10,3000,,
+orca_clip_count,K12,3000,,
+orca_clip_count,K13,3000,,
+orca_clip_count,K14,3000,,
+orca_clip_count,K17,3065,,
+orca_clip_count,K21,3000,,
+orca_clip_count,K27,3000,,
+orca_clip_count,noise,12228,,
+frame_agreement_clean,-10,11.9898,9.4363,14.3573
+frame_agreement_background,-10,66.1848,63.9452,68.9349
+frame_agreement_clean,0,37.9960,33.7015,42.3622
+frame_agreement_background,0,25.6944,23.2281,28.2745
+frame_agreement_clean,10,69.6712,65.3047,73.7677
+frame_agreement_background,10,5.5130,3.9683,6.7747
+frame_agreement_clean,20,88.7046,86.4789,90.8875
+frame_agreement_background,20,0.5811,0.4393,0.7373
